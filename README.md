@@ -5,7 +5,7 @@ Historias de usuario:
 ● El proyecto debe tener un nombre, una descripción, una fecha de comienzo, una de
 término y un estado. (1 Punto)
 
-rails g scaffold project name:string description:string begin_at:date final_at:date estate:string
+<code>rails g scaffold project name:string description:string begin_at:date final_at:date estate:string</code>
 
 ● El campo estado(state) refleja el estado actual(propuesta, en progreso, terminado).
 Este estado por defecto debe ser propuesta. (1 Punto)

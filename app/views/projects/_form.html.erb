@@ -33,7 +33,7 @@
 
   <div>
     <%= form.label :estate, style: "display: block" %>
-    <%= form.text_field :estate %>
+    <%= form.select :estate, Project.estates.keys %>
   </div>
 
   <div>
